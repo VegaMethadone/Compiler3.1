@@ -1,0 +1,18 @@
+void int_to_string(int x);
+
+int factorial(int a) {
+    if (a == 1) {
+        return a;
+    }
+    int x = a - 1;
+    int b = factorial(x);
+    b = b * a;
+    return b;
+}
+
+
+void main() {
+    int x = 3;
+    int b = factorial(x);
+    int_to_string(b);
+}

@@ -1,0 +1,7 @@
+void main() {
+    int a = 1;
+    a = a + 1;
+    int b = 3;
+    int c = (10  - 5) * 5;
+    
+}   
